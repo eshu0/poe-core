@@ -6,7 +6,7 @@ type Interface struct {
 	types.GoItem
 }
 
-func NewInterface(name string) Interface {
+func NewInterface(name string) Interface { 
 	return Interface{GoItem: types.NewGoItem(name)}
 }
 
